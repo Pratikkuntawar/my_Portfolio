@@ -1,0 +1,231 @@
+#navbar{
+    background-color: #1f242d !important;
+    padding: 0 8%;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-right: 20px;
+    padding-left: 2px;
+}
+#searchbox{
+    border: 2px solid;
+}
+#searchbutton{
+    color: antiquewhite;
+    background-color: blueviolet;
+}
+/* styling od home page started */
+#home{
+background-color: #1f242d;
+padding-top: 9%;
+padding-bottom: 5%;
+
+}
+html{
+scroll-behavior: smooth;
+}
+#home-text h3{
+font-weight: 700;
+font-size: 25px;
+}
+#home-text h1{
+font-weight: 700;
+font-size: 40px;
+}
+#home-text p{
+font-weight: bolder;
+}
+#home-text h4{
+font-size: 23px;;
+}
+.han .anchor{
+font-size: 20px;
+margin-right: 10px;
+}
+.home-image img{
+border: 2px solid white;
+height: 300px;
+width: 300px;
+}
+@media only screen and (max-width: 769px){
+#home{
+padding:20px 20px;
+}
+}
+@media only screen and (width: 280px){
+#home h1{
+font-size: 30px;
+}
+#home h4{
+font-size: 16px;
+}
+}
+.Multiple-text{
+color: #0ef;
+}
+/* styling od home page ended */
+/* styling of about page started */
+.about-text .img2{
+width: 300px;
+height: 300px;
+border: 2px solid white;
+}
+#about{
+background-color:  #1f242d;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+.about-text h1{
+font-weight: bolder;
+font-size: 35px;
+}
+.about-text h3{
+font-weight: bolder;
+font-size: 20px;
+}
+.about-text p{
+font-weight: bolder;
+font-size: 10px;
+}
+.read{
+font-weight: 600;
+letter-spacing: 0.1rem;
+font-size: 1.2rem;
+box-shadow: 0 0 1rem #0ef;
+background-color: #0ef;
+transition: 0.5 ease;
+border-radius: 25px;
+}
+.read:hover{
+box-shadow: none;
+}
+@media only screen and (width:375px){
+#home-text h3{
+text-align:center;
+}
+/* #about h1{
+ text-align: center; 
+}
+.about-text h3{
+text-align: center;
+} */
+.counter{
+text-align: center;
+}
+}
+@media only screen and (width: 540px){
+#home-text{
+text-align: center;
+padding-top: 0%;
+}
+.about-text{
+text-align: center;
+padding-top: 0%;
+}
+}
+.about-text{
+padding-top: 8%;
+} 
+@media only screen and (min-width:768px){
+/* #about p{
+text-align: right;
+} */
+}
+/* styling of about page ended */
+/* styling of service section started */
+#service{
+background-color:  #1f242d;
+padding-bottom: 10%;
+/* padding-top: 15%; */
+}
+.icon{
+font-size: 30px;
+color: #0ef;
+}
+#service p{
+color: whitesmoke;
+}
+.cards{
+border: 2px solid white;
+border-radius: 25px;
+margin-right:25px;
+padding-bottom: 2%;
+margin-top: 10%;
+border-color: #0ef;
+}
+.cards:hover{
+transform: scale(1.1);
+border-color: #0ef;
+}
+#service h3{
+color: #0ef;
+}
+
+@media only screen and (max-width: 768px){
+.cards{
+padding-bottom: 2%;
+}
+}
+.cards:hover{
+box-shadow: 10px 10px 5px black;
+}
+/* styling of service section ended */
+/* styling of recent work section started */
+.card2{
+border: 2px solid white;
+border-radius: 25px;
+margin-right: 25px;
+padding-bottom: 2%;
+margin-top: 10%;
+border-color: #0ef;
+}
+.card2:hover{
+transform: scale(1.1);
+border-color: #0ef;
+transition: 0.5 ease;
+box-shadow: 10px 10px 5px black;
+}
+#recent{
+/* padding-top: 12%; */
+padding-bottom: 10%;
+background-color:  #1f242d;
+}
+#recent h3{
+color: #0ef;
+}
+#recent p{
+color: whitesmoke;
+}
+/* styling of recent work section ended*/
+/* styling of contact section started */
+.anchor1{
+color:#0ef;
+font-size: 20px;
+margin-right: 10px;
+}
+#email{
+color: aquamarine;
+/* border-radius: 25px; */
+}
+#call{
+color: aquamarine;
+/* border-radius: 25px; */
+} 
+#contact{
+background-color:  #1f242d;
+/* padding-top: 10%; */
+padding-bottom: 8%;
+}
+.placeholder::placeholder{
+text-align: center;
+color: #1f242d;
+}
+.placeholder{
+border: 2px solid black;
+border-radius: 5px;
+}
+#contact h5 a{
+color: #0ef;
+}
+/* styling of contact section ended */
